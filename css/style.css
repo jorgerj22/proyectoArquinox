@@ -736,7 +736,8 @@ ul.navbar-nav > li.active > a {
 /*-- Logo --*/
 .logo img {
   width: auto;
-  height: 35px;
+  height: 62px;
+  border-radius: 16px;
 }
 
 .header-two .logo img {
@@ -2461,8 +2462,9 @@ img.testimonial-thumb {
 
 /* Footer about us */
 .footer-logo {
-  margin-bottom: 25px;
-  max-height: 35px;
+  margin-bottom: 22px;
+  max-height: 62px;
+  border-radius: 16px;
 }
 
 /* Footer social */
