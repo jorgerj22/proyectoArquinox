@@ -18,6 +18,13 @@
 ================================================== -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+   <!--Whatsapp floit start-->
+ <a href="https://api.whatsapp.com/send?phone=5491137872644&text=Hola%21%20Quisiera%20mas%20informacion%20acerca%20de%20sus%20productos." class="float" target="_blank">
+  <img src="./images/logowhatsapp2.png" width="50" height="50">
+  <i class="fa fa-WhatsApp my-float"></i>
+  </a>
+  <!--Whatsapp floit end-->
+
   <!-- CSS
 ================================================== -->
   <!-- Bootstrap -->
@@ -33,6 +40,7 @@
   <link rel="stylesheet" href="plugins/colorbox/colorbox.css">
   <!-- Template styles-->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/whatsapp.css">
 
 </head>
 
@@ -198,7 +206,7 @@
     </header>
     <!--/ Header end -->
 
-<div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner1.jpg)">
+<div id="banner-area" class="banner-area" style="background-image:url(./images/banner/questions.jpg)">
   <div class="banner-text">
     <div class="container">
         <div class="row">
@@ -207,8 +215,8 @@
                 <h1 class="banner-title">Faq</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item"><a href="#">company</a></li>
+                      <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                      <li class="breadcrumb-item"><a href="about.html">Empresa</a></li>
                       <li class="breadcrumb-item active" aria-current="page">Faq</li>
                     </ol>
                 </nav>
@@ -218,6 +226,8 @@
     </div><!-- Container end -->
   </div><!-- Banner text end -->
 </div><!-- Banner area end --> 
+
+<!-- START FAQ -->
 
 <section id="main-container" class="main-container">
   <div class="container">
@@ -343,8 +353,9 @@
 
       </div><!-- Col end -->
 
-      <div class="col-lg-4 mt-5 mt-lg-0">
+      <!-- START OBRAS RECIENTES -->
 
+      <div class="col-lg-4 mt-5 mt-lg-0">
         <div class="sidebar sidebar-right">
           <div class="widget recent-posts">
             <h3 class="widget-title">Obras recientes</h3>
@@ -386,32 +397,35 @@
 
           </div><!-- Recent post end -->
         </div><!-- Sidebar end -->
-
+       
       </div><!-- Col end -->
+
+ <!-- END OBRAS RECIENTES -->
 
     </div><!-- Content row end -->
 
   </div><!-- Container end -->
 </section><!-- Main container end -->
 
+<!-- START FAQ -->
+
+<!-- START FOOTER -->
 <footer id="footer" class="footer bg-overlay">
   <div class="footer-main">
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-lg-4 col-md-6 footer-widget footer-about">
           <h3 class="widget-title">Contacto</h3>
-          <img loading="lazy" class="footer-logo" src="images/footer-logo.png" alt="Constra">
+          <img loading="lazy" class="footer-logo" src="./images/arquinox.png" alt="Arquinox">
           <p>Mail: info@arquinox.com.ar</p>
-          <p>WhatsApp: +54- 011 3787-2644</p>
-        
+          <p>WhatsApp: +549- 011 3787-2644</p>
+
           <div class="footer-social">
             <ul>
-              <li><a href="#"><i
-                    class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
               <li><a href="#" aria-label="google"><i class="fab fa-google"></i></a>
               </li>
-              <li><a href="#" aria-label="Instagram"><i
-                    class="fab fa-instagram"></i></a></li>
+              <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
               <li><a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
             </ul>
           </div><!-- Footer social end -->
@@ -420,7 +434,7 @@
         <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
           <h3 class="widget-title">Ubicacion - Horarios</h3>
           <div class="working-hours">
-            Nuestra fábrica se encuentra ubicada en   
+            Nuestra fábrica se encuentra ubicada en
             Av. Guido Spano 3544, Villa Lynch, Provincia de Buenos Aires.
             <br><br> Lunes a Sábados: <span class="text-right">10:00 - 20:30 </span>
           </div>
@@ -445,24 +459,14 @@
       <div class="row align-items-center">
         <div class="col-md-12">
           <div class="copyright-info text-center">
-            <span>Todos los derechos reservados a Arquinox &copy; <script>
+            <span>Todos los derechos reservados a Arquinox &copy;
+              <script>
                 document.write(new Date().getFullYear())
-              </script>, Diseñada &amp; <a href="https://arizonacontenidos.com/"> Grupo Arizona Contenidos</a></span>
+              </script>, Diseñada &amp; <a href="https://arizonacontenidos.com/"> Grupo Arizona Contenidos</a>
+            </span>
           </div>
         </div>
 
-          <div class="col-md-6">
-            <div class="footer-menu text-center text-md-right">
-              <ul class="list-unstyled mb-0">
-                <li><a href="about.html">About</a></li>
-                <li><a href="team.html">Our people</a></li>
-                <li><a href="faq.html">Faq</a></li>
-                <li><a href="news-left-sidebar.html">Blog</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-              </ul>
-            </div>
-          </div>
-        </div><!-- Row end -->
 
         <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
           <button class="btn btn-primary" title="Back to Top">
@@ -470,9 +474,14 @@
           </button>
         </div>
 
-      </div><!-- Container end -->
-    </div><!-- Copyright end -->
-  </footer><!-- Footer end -->
+      </div>
+      <!-- Container end -->
+    </div>
+    <!-- Copyright end -->
+</footer>
+<!-- Footer end -->
+
+<!-- END FOOTER -->
 
 
   <!-- Javascript Files
