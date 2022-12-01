@@ -116,7 +116,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #000;
+  color: rgb(236, 153, 28);
 }
 
 a.read-more {
@@ -581,6 +581,12 @@ a[href^=tel] {
   position: relative;
 }
 
+.img-fluids {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 10px 20px 10px;
+  border-radius: 5px;
+}
 /* Top info */
 ul.top-info {
   list-style: none;
@@ -2187,12 +2193,6 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   align-content: center;
 }
 
-.clients-logo img {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-  -webkit-filter: gray;
-          filter: gray;
-}
 
 /* Testimonial
 ================================================== */
@@ -2247,6 +2247,7 @@ img.testimonial-thumb {
   float: left;
   margin-right: 20px;
   border-radius: 5px;
+  box-shadow: 9px 0px 14px;
 }
 
 .quote-item-info {
