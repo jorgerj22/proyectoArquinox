@@ -94,6 +94,11 @@ body {
   overflow: hidden;
 }
 
+.barandas {
+  margin: 0px;
+  margin-left: 20px;
+}
+
 .preload {
   position: fixed;
   background: #fff url(../images/preload.gif) center center no-repeat;
@@ -1912,21 +1917,24 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .shuffle-btn-group {
   display: inline-block;
   margin: 20px 0 50px;
+  padding: 4px;
   width: 100%;
   border-bottom: 3px solid #d1810a;
 }
 
 .shuffle-btn-group label {
+  border: inset 1px;
+  border-radius: 5px;
   display: inline-block;
   color: #212121;
   font-size: 14px;
-  padding: 6px 25px;
+  padding: 6px 25px 10px 10px;
   padding-top: 10px;
   font-weight: 700;
   text-transform: uppercase;
   transition: all 0.3s;
   cursor: pointer;
-  margin: 0;
+  margin: 2px;
 }
 
 .shuffle-btn-group label.active {
